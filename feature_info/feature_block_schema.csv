@@ -1,0 +1,6 @@
+feature_block,start_col,end_col_exclusive,n_features,column_range
+hog,0,5808,5808,feat_0000 ... feat_5807
+lbp,5808,5834,26,feat_5808 ... feat_5833
+gabor,5834,5962,128,feat_5834 ... feat_5961
+zoning_projection,5962,6362,400,feat_5962 ... feat_6361
+shape_skeleton,6362,6382,20,feat_6362 ... feat_6381
