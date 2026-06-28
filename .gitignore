@@ -1,0 +1,26 @@
+# ===== OS =====
+.DS_Store
+Thumbs.db
+
+# ===== Project-private (jangan dipush ke repo publik) =====
+CLAUDE.md
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# ===== Model artifacts besar (terlalu besar untuk GitHub) =====
+# Ignore semua .pkl di models/ ...
+models/*.pkl
+# ... kecuali scaler.pkl yang kecil & memang di-track
+!models/scaler.pkl
+
+# ===== Dataset (download manual dari Mendeley) =====
+dataset/Bali/
+dataset/Jawa/
+dataset/Sunda/

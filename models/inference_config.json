@@ -1,0 +1,58 @@
+{
+  "run_preset": "kaggle_t4x2_balance",
+  "n_trials": 10,
+  "tune_frac": 0.35,
+  "tuning_timeout_seconds": 1800,
+  "best_model_name": "Weighted SoftVote (lgbm+cat+two_stage_lgbm)",
+  "best_model_key": "ensemble_weighted",
+  "macro_f1": 0.909391,
+  "accuracy": 0.914021,
+  "val_macro_f1": 0.909563,
+  "n_classes": 64,
+  "scripts": [
+    "Bali",
+    "Jawa",
+    "Sunda"
+  ],
+  "img_size": 96,
+  "feat_dim_raw": 6382,
+  "feat_dim_pca": 2479,
+  "pca_variance": 0.98,
+  "feature_version": "v5_kaggle_t4x2_balance_img96_pca98_aug250_stroke_guarded_final",
+  "augment_train": true,
+  "aug_target_per_class": 250,
+  "models_trained": [
+    "xgb",
+    "lgbm",
+    "cat",
+    "two_stage_lgbm"
+  ],
+  "models_in_ensemble": [
+    "lgbm",
+    "cat",
+    "two_stage_lgbm"
+  ],
+  "ensemble_weights": [
+    0.125,
+    0.625,
+    0.25
+  ],
+  "guardrails": {
+    "conf_threshold": 0.45,
+    "margin_threshold": 0.08,
+    "multi_object_reject": true,
+    "large_component_area_ratio": 0.04,
+    "max_large_components": 1,
+    "specialist_pairs": [
+      [
+        "Bali_ka",
+        "Bali_nya"
+      ]
+    ]
+  },
+  "per_script_f1": {
+    "Bali": 0.9313,
+    "Jawa": 0.8736,
+    "Sunda": 0.9127
+  }
+}
