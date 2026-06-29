@@ -195,19 +195,12 @@ For best prediction quality:
 
 ## Deployment Configuration
 
----
-
-title: Nusantara Script
-colorFrom: red
-colorTo: red
-sdk: streamlit
-app_file: app.py
-tags:
-
-- streamlit
-- machine-learning
-- computer-vision
-  short_description: Indonesian local handwritten script character recognition
-  license: apache-2.0
-
----
+| Configuration         | Value                                                     |
+| --------------------- | --------------------------------------------------------- |
+| **Title**             | Nusantara Script                                          |
+| **SDK**               | Streamlit                                                 |
+| **App File**          | `app.py`                                                  |
+| **Color Theme**       | Red → Red                                                 |
+| **Tags**              | `streamlit`, `machine-learning`, `computer-vision`        |
+| **Short Description** | Indonesian local handwritten script character recognition |
+| **License**           | Apache-2.0                                                |
