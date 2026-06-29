@@ -12,13 +12,13 @@ Place the downloaded files inside this `models/` directory.
 
 ## Required Files
 
-| File | Approximate Size | Purpose |
-| --- | ---: | --- |
-| `scaler.pkl` | 150 KB | StandardScaler used to normalize handcrafted feature vectors before PCA |
-| `pca_model.pkl` | 60 MB | PCA transformer that reduces 6,382 raw features to 2,479 features while retaining 98% variance |
-| `guarded_model.pkl` | 193 MB | Main guarded ensemble classifier used for prediction |
-| `class_names.npy` | 1 KB | Class label list for the 64 script-character classes |
-| `inference_config.json` | 1 KB | Inference metadata, model metrics, and guardrail threshold configuration |
+| File                    | Approximate Size | Purpose                                                                                        |
+| ----------------------- | ---------------: | ---------------------------------------------------------------------------------------------- |
+| `scaler.pkl`            |           150 KB | StandardScaler used to normalize handcrafted feature vectors before PCA                        |
+| `pca_model.pkl`         |            60 MB | PCA transformer that reduces 6,382 raw features to 2,479 features while retaining 98% variance |
+| `guarded_model.pkl`     |           193 MB | Main guarded ensemble classifier used for prediction                                           |
+| `class_names.npy`       |             1 KB | Class label list for the 64 script-character classes                                           |
+| `inference_config.json` |             1 KB | Inference metadata, model metrics, and guardrail threshold configuration                       |
 
 ## Expected Structure
 
@@ -28,7 +28,7 @@ models/
 |-- pca_model.pkl
 |-- guarded_model.pkl
 |-- class_names.npy
-`-- inference_config.json
+|-- inference_config.json
 ```
 
 ## Notes

@@ -16,7 +16,7 @@ After downloading and extracting the dataset, place the script image folders in 
 dataset/
 |-- Bali/
 |-- Jawa/
-`-- Sunda/
+|-- Sunda/
 ```
 
 Each folder should contain the handwritten character images for the corresponding Indonesian local script.

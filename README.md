@@ -17,8 +17,8 @@ This project was developed for the COMP6577001 - Machine Learning course at Bina
 
 | Name                    | Student ID |
 | ----------------------- | ---------- |
-| Fadhlan Nur Rachman     | 2802491690 |
 | Dian Rakhmawati Lestari | 2802539085 |
+| Fadhlan Nur Rachman     | 2802491690 |
 | Bintang Nur Fadhlillah  | 2802536083 |
 
 ## What the Application Does
@@ -96,9 +96,9 @@ Nusantara-Script-Recognition-ML/
 |   |-- class_names.npy
 |   |-- scaler.pkl
 |   `-- inference_config.json
-`-- notebooks/
+|-- notebooks/
     |-- training-aksara-ml.ipynb   # Main training notebook
-    `-- reference_notebook/
+    |-- reference_notebook/
 ```
 
 Large model artifacts such as `guarded_model.pkl` and `pca_model.pkl` may not be stored directly in this repository. See [models/README.md](models/README.md) for download instructions.
@@ -144,7 +144,7 @@ models/
 |-- pca_model.pkl
 |-- guarded_model.pkl
 |-- class_names.npy
-`-- inference_config.json
+|-- inference_config.json
 ```
 
 If any large model files are missing, download them using the link in [models/README.md](models/README.md).
@@ -171,7 +171,7 @@ After downloading and extracting the dataset, place the image folders as follows
 dataset/
 |-- Bali/
 |-- Jawa/
-`-- Sunda/
+|-- Sunda/
 ```
 
 For more details, see [dataset/README.md](dataset/README.md).
