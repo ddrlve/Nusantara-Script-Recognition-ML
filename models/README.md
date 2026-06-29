@@ -24,11 +24,11 @@ Place the downloaded files inside this `models/` directory.
 
 ```text
 models/
-|-- scaler.pkl
-|-- pca_model.pkl
-|-- guarded_model.pkl
-|-- class_names.npy
-|-- inference_config.json
+├── scaler.pkl
+├── pca_model.pkl
+├── guarded_model.pkl
+├── class_names.npy
+└── inference_config.json
 ```
 
 ## Notes

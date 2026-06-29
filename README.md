@@ -77,28 +77,28 @@ The train-validation gap is approximately 0.0002, indicating that the final mode
 
 ```text
 Nusantara-Script-Recognition-ML/
-|-- app.py                         # Streamlit application and inference pipeline
-|-- requirements.txt               # Python dependencies
-|-- Dockerfile                     # Container configuration for deployment
-|-- README.md                      # Main project documentation
-|-- dataset/
-|   `-- README.md                  # Dataset download and placement instructions
-|-- docs/
-|   |-- LINK.md                    # Project submission links
-|   `-- Submit Final Project...docx
-|-- feature_info/
-|   |-- README.md                  # Feature metadata documentation
-|   |-- feature_block_schema.csv
-|   |-- feature_column_detail.csv
-|   `-- feature_extraction_test_preview.csv
-|-- models/
-|   |-- README.md                  # Model artifact instructions
-|   |-- class_names.npy
-|   |-- scaler.pkl
-|   `-- inference_config.json
-|-- notebooks/
-    |-- training-aksara-ml.ipynb   # Main training notebook
-    |-- reference_notebook/
+├── app.py                         # Streamlit application and inference pipeline
+├── requirements.txt               # Python dependencies
+├── Dockerfile                     # Container configuration for deployment
+├── README.md                      # Main project documentation
+├── dataset/
+|   └── README.md                  # Dataset download and placement instructions
+├── docs/
+|   ├── LINK.md                    # Project submission links
+|   └── Submit Final Project...docx
+├── feature_info/
+|   ├── README.md                  # Feature metadata documentation
+|   ├── feature_block_schema.csv
+|   ├── feature_column_detail.csv
+|   └── feature_extraction_test_preview.csv
+├── models/
+|   ├── README.md                  # Model artifact instructions
+|   ├── class_names.npy
+|   ├── scaler.pkl
+|   └── inference_config.json
+└── notebooks/
+    ├── training-aksara-ml.ipynb   # Main training notebook
+    └── reference_notebook/
 ```
 
 Large model artifacts such as `guarded_model.pkl` and `pca_model.pkl` may not be stored directly in this repository. See [models/README.md](models/README.md) for download instructions.
@@ -140,11 +140,11 @@ Place the required model files inside the `models/` directory:
 
 ```text
 models/
-|-- scaler.pkl
-|-- pca_model.pkl
-|-- guarded_model.pkl
-|-- class_names.npy
-|-- inference_config.json
+├── scaler.pkl
+├── pca_model.pkl
+├── guarded_model.pkl
+├── class_names.npy
+└── inference_config.json
 ```
 
 If any large model files are missing, download them using the link in [models/README.md](models/README.md).
@@ -169,9 +169,9 @@ After downloading and extracting the dataset, place the image folders as follows
 
 ```text
 dataset/
-|-- Bali/
-|-- Jawa/
-|-- Sunda/
+├── Bali/
+├── Jawa/
+└── Sunda/
 ```
 
 For more details, see [dataset/README.md](dataset/README.md).
