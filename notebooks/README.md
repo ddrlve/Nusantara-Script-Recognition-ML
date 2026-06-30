@@ -78,7 +78,7 @@ PCA dengan `n_components=0.98` menemukan jumlah komponen yang memenuhi 98% varia
 | Loss curve | Tidak ada | Ada (train vs val per iterasi) |
 | Guardrail assembly | Tidak lengkap | Lengkap (`GuardedAksaraClassifier`) |
 | Export CSV fitur | Ada | Ada (`notebooks/example_csv/`) |
-| Style | Eksperimental | Beginner-friendly, linear, tanpa emoji |
+| Style | Eksperimental | Beginner-friendly, linear |
 
 ---
 
