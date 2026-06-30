@@ -63,7 +63,7 @@ PCA dengan `n_components=0.98` menemukan jumlah komponen yang memenuhi 98% varia
 | Test samples | 4,001 | 4,001 |
 | Overfit verdict | RINGAN / SEDANG | RINGAN |
 
-> **Catatan F1 per-script:** Perbedaan mencolok pada Jawa (0.8736 vs 0.8357) sebagian besar disebabkan oleh kelas `Jawa_pa` yang hanya memiliki **2 sampel test**. Satu prediksi benar/salah pada kelas ini menggeser rata-rata F1 Jawa sebesar ~0.05. Ini artefak ukuran sampel, bukan perbedaan kemampuan model.
+> **Catatan F1 per-script:** Perbedaan signifikan pada Jawa (0.8736 vs 0.8357) sebagian besar disebabkan oleh kelas `Jawa_pa` yang hanya memiliki **2 sampel test**. Satu prediksi benar/salah pada kelas ini menggeser rata-rata F1 Jawa sebesar ~0.05. Ini artefak ukuran sampel, bukan perbedaan kemampuan model.
 
 ---
 
